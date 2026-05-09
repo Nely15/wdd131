@@ -134,6 +134,7 @@ main section img {
 .texas-content img {
     width: 180px;
     height: auto;
+    margin-left: 1rem;
 }
 
 .texas-content p {
