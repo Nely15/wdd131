@@ -63,8 +63,7 @@ main h1{
     grid-column: 1 /3;
 }
 
-.card,
-main section {
+.card {
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -72,8 +71,7 @@ main section {
     padding-bottom: 1rem;
 }
 
-.card h2,
-main section h2 {
+.card h2 {
     background-color: #1f3c5c;
     color: white;
     text-align: center;
@@ -81,16 +79,11 @@ main section h2 {
     margin-bottom: 1rem;
 }
 
-.card p,
-main section p {
+.card p {
     padding: 1rem;
 }
 
-.card img,
-main section img {
-    display: block;
-    max-width: 200px;
-    margin: 1rem auto;
+img {
     border-radius: 5px;
 }
 
@@ -131,16 +124,27 @@ main section img {
     padding: 1rem;
 }
 
-.texas-content img {
-    width: 180px;
-    height: auto;
-    margin-left: 1rem;
-}
-
 .texas-content p {
     flex: 1;
 }
 
+.flag-container {
+    text-align: center;
+}
+
+.flag-container img {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.flag-caption {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #555;
+    margin-top: 0.5rem;
+}
 section ul {
     padding-left: 2rem;
     margin-top: 1rem;
@@ -173,6 +177,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+
     nav {
         flex-direction: column;
         gap: 1rem;
@@ -184,5 +189,15 @@ footer {
 
     main h1 {
         grid-column: 1 /2;
+    }
+
+    .about-content,
+    .texas-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content img {
+        margin-right: 0;
     }
 }
