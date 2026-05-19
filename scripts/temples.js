@@ -1,9 +1,10 @@
 const year = document.querySelector("#currentyear");
-year.textContent = new Date().getFullYear();
-
 const lastModified = document.querySelector("#lastModified");
-lastModified.textContent = `Last Modified: ${document.lastModified}`;
 
+const now = new Date();
+
+year.textContent = now.getFullYear();
+lastModified.textContent = `Last Modified: ${document.lastModified}`;
 
 const menuButton = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');
