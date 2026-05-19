@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Picture Album</title>
-    <meta name="description" content="LDS Temple Album">
+    <meta name="description" 
+    content="Explore a beautiful collection of my temples of The Church of Jesus Christ of Latter Day Saints around the world">
     <meta name="author" content="Blanca Ruiz">
 
+    /Google Fonts
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400,700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
 
@@ -22,18 +28,18 @@
 
     <header>
 
-        <h1>Temple Album </h1>
+        <span class="site-title">Temple Album </span>
 
-        <button type="button" id="menu"></button>
+        <button id="menu"></button>
 
         <nav>
 
             <ul class="navigation">
-                <li><a href="#" title="Home">Home</a></li>
-                <li><a href="#" title="Old" class="active">Old</a></li>
-                <li><a href="#" title="New">New</a></li>
-                <li><a href="#" title="Large">Large</a></li>
-                <li><a href="#" title="Small">Small</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
             </ul>
 
         </nav>
@@ -41,7 +47,7 @@
     </header>
 
 
-    <main class="adventures">
+    <main>
 
         <h1>My Favorite Temples</h1>
         <div class="temple-gallery">
@@ -102,16 +108,13 @@
         <footer>
 
         <p>
-            &copy;
-            <span id="currentyear"></span>
+            &copy; <span id="currentyear"></span>
             | Blanca Ruiz | Texas, United States
         </p>
         
         <p id="lastModified"></p>
 
         </footer>
-
-
 
 </body>
 
