@@ -30,14 +30,13 @@
         border-radius: 5px;
     }
 
-    .temple-gallery {
-        display: grid;
+    .temple-gallery {        
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
         align-items: stretch;
     }
 
-    figure img {
+    figure {
         height: 100%;
         display: flex;
         flex-direction: column;

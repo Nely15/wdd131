@@ -23,7 +23,6 @@ header {
 .site-title {
     font-size: 1.5rem;
     font-weight: 700;
-
     white-space: nowrap;
 }
 
@@ -33,6 +32,7 @@ header {
     border: none;
     color: white;    
     cursor: pointer;
+    
     margin-left: auto;
     
 }
@@ -42,6 +42,8 @@ header {
 }
 
 nav {
+    display: flex;
+    justify-content: flex-end;
     width: auto;
 }
 
