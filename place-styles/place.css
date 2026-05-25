@@ -1,13 +1,20 @@
 :root {
     --main-color: #c8102e;
     --second-color: #ffffff;
-    --accent-color: #afb47b;
-    --background-color: #d4d4d4;
+    --accent-color: #000baa;
+    --background-color: #424242;
 
 }
 
+html,
 body {
     margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--background-color);
     text-align: center;
@@ -18,6 +25,29 @@ header {
     background-color: var(--main-color);
     color: var(--second-color);
     padding: 1rem;
+}
+
+.hero-wrapper {
+    position: relative;
+}
+
+.hero-wrapper::before,
+.hero-wrapper::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background-color: white;
+    z-index: 2;
+}
+
+.hero-wrapper::before {
+    top: 0;
+}
+
+.hero-wrapper::after {
+    bottom: 0;
 }
 
 .hero-image {
@@ -36,15 +66,22 @@ header {
 .card h2 {
     background-color: var(--accent-color);
     color: white;
-    padding: .5rem;
+    padding: 0.5rem;
     border-radius: 5px;
+    font-weight: 700;
 }
 
 .weather p {
     margin: 0.5rem 0;
 }
+
 .weather-icon {
     width: 60px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 footer{

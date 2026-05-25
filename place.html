@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Osaka, Japan</title>
+    <meta name="description" content="Explore Osaka, Japan with live weather data, cultural highlights, and key facts about the city including population, language, and currency. ">
+
 
     <link rel="stylesheet" href="place-styles/place.css">
     <link rel="stylesheet" href="place-styles/place-large.css">
 
-    <script src="place-script/place.js" defer></script>
+    <script src="place-scripts/place.js" defer></script>
 
 </head>
 
@@ -23,23 +25,28 @@
 
 
     <main>
+         
+        <div class="hero-wrapper">
 
-        <picture>
-            <source srcset="place-images/osaka-japan-large.webp" media="(min-width: 768px)">
-            <img src="place-images/osaka-japan-small.webp"
-                alt="Beautiful Osaka Japan city panorama city view"
-                class="hero-image">
+            <picture>
+                <source srcset="place-images/osaka-japan-large.webp" media="(min-width: 768px)">
+                <img src="place-images/osaka-japan-small.webp" 
+                    alt="The Osaka Castle peeking through the trees in front during daytime in Japan."
+                    class="hero-image">
 
-        </picture>
+            </picture>
+
+        </div>   
 
         <section class="card data">
             <h2>Data</h2>
 
             <p><strong>Country: </strong>Japan</p>
-            <p><strong>Population: </strong>2.7 Million</p>
+            <p><strong>Population: </strong>122.43 Million</p>
             <p><strong>Language: </strong>Japanese</p>
             <p><strong>Currency: </strong>Yen</p>
-            <p><strong>Famous for: </strong>Food and Anime</p>
+            <p><strong>Osaka Population: </strong>2.75 Million</p>
+            <p><strong>Famous for: </strong>Ancient temples, anime, cuisine, tech, and high life expectancy.</p>
             <p><strong>Time Zone: </strong>UTC +9</p>
 
         </section>
@@ -49,7 +56,8 @@
             <h2>Weather</h2>
 
             <img src="place-images/weather.svg"
-            alt="Weather icon"
+            alt=""
+            aria-hidden="true"
             class="weather-icon">
 
             <p><strong>Temperature:</strong> <span id="temp">21</span>°C</p>
@@ -70,24 +78,18 @@
 
     <footer>
 
-        <p>
-            ©<span id="currentyear"></span> 🌸 Blanca Ruiz 🌸 
-        </p>
+        <p>©<span id="currentYear"></span> 🌸 Blanca Ruiz 🌸</p>
 
         <p>Osaka Japan </p>
 
         <p class="credits">
-            
-            Small image by Cosmin Serban on Unsplash
-            
-            <br>
 
+            Small image by Cosmin Serban on Unsplash<br> 
             Large image by Nomadic Julien on Unsplash
         
         </p>
 
         <p id="lastModified"></p>
-
 
 
     </footer>
