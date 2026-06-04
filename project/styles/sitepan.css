@@ -1,0 +1,26 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5e9db;
+    color: #333333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #bf0f5b
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+pre {
+    border: 1px solid #333333;
+    padding: 1rem;
+    overflow-x: auto;
+    background-color: white;
+}
