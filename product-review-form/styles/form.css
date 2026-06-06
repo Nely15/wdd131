@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #003366;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 1 rem auto;
+}
+
+form { 
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+select,
+textarea,
+input [type="text"]
+input [type="date"] {
+    width: 100%;
+    padding: .75rem;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+span {
+    color: rgb(51, 21, 203);
+    font-size: .9rem;
+}
