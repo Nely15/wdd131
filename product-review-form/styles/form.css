@@ -29,6 +29,15 @@ label {
     margin-top: 1rem;
     font-weight: bold;
 }
+.rating-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating-option label {
+    margin-bottom: .25rem;
+}
 
 select,
 textarea,
