@@ -13,14 +13,14 @@ footer {
     text-align: center;
     padding: 1rem;
     background-color: #003366;
-    color: white;
+    color: #ffffff;
 }
 
 main {
     max-width: 600px;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 5px;
 
     flex: 1;
