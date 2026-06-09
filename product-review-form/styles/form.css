@@ -89,7 +89,15 @@ input[type="submit"] {
 }
 
 .feature-group {
+    display: flex;
+    align-items: center;
     margin-bottom: .5rem;
+}
+
+.feature-group label {
+    margin-top: 0;
+    margin-left: .5rem;
+    font-weight: normal;
 }
 
 @media screen and (max-width: 600px) {
