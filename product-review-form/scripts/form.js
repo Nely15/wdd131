@@ -49,3 +49,13 @@ products.forEach(product => {
     productSelect.appendChild(option);
 
 });
+
+const reviewForm = document.querySelector("form");
+
+reviewForm.addEventListener("submit", () => {
+
+    sessionStorage.setItem(
+        "reviewSubmitted",
+        "true"
+    );
+});

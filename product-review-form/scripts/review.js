@@ -10,12 +10,19 @@ document.getElementById("lastModified").textContent = `Last Modified: ${document
 
 let reviewCount = Number(localStorage.getItem("reviewCount")) || 0;
 
-reviewCount++;
+if (sessionStorage.getItem("reviewSubmitted") === "true") {
 
-localStorage.setItem(
-    "reviewCount",
-    reviewCount
-);
+    reviewCount++;
+
+    localStorage.setItem(
+        "reviewCount",
+        reviewCount
+    );
+    
+    sessionStorage.removeItem(
+        "reviewSubmitted"
+    );
+}
 
 document.querySelector("#reviewCount").textContent = reviewCount;
 

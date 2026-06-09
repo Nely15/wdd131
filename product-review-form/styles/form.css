@@ -83,7 +83,22 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-span {
+.optional {
     color: rgb(51, 21, 203);
     font-size: .9rem;
 }
+
+.feature-group {
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 600px) {
+
+    .rating-group {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+}
+    
+
