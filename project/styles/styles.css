@@ -206,6 +206,30 @@ button:hover{
     text-align: center;
 }
 
+.price {
+    font-weight: bold;
+    color: var(--pink);
+    margin: .5rem 0;
+}
+
+.filters {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+#search,
+#sort {
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.card p {
+    margin: .5rem 0;
+}
+
 @media (max-width:768px) {
 
     header {
